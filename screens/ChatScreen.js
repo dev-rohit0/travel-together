@@ -73,11 +73,11 @@ export default function ChatScreen({ navigation }) {
     }, [chatRoomId]);
 
     return (
-        <SafeAreaView>
-            <View style={styles.headerContainer}>
+        <>
+            <SafeAreaView style={styles.headerContainer}>
                 <Image style={styles.userImage} source={{ uri: profilePhoto || 'https://imgs.search.brave.com/vOO7qV91FV-HWky8Me3E3_SgebusEx08NPtrBHwchcA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Y1L2E2/LzE5L2Y1YTYxOTMw/NTFiYmExZTFiMTIy/ODcxN2FhYmY2M2Jk/LmpwZw' }} />
                 <Text style={styles.userName}>{otherUserName}</Text>
-            </View>
+            </SafeAreaView>
             <GiftedChat
                 messages={messages}
                 onSend={onSend}
@@ -92,7 +92,7 @@ export default function ChatScreen({ navigation }) {
                     />
                 )}
             />
-        </SafeAreaView>
+        </>
     );
 }
 
