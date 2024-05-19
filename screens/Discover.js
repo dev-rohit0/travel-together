@@ -140,9 +140,7 @@ const Discover = ({ navigation }) => {
                         <Text className="text-[40px] text-[#0B646B] font-bold">Discover</Text>
                         <Text className="text-[#527283] text-[36px]">the beauty today</Text>
                     </View>
-                    <TouchableOpacity onPress={() => navigation.openDrawer()}>
-                        <Image source={Avatar} style={{ width: 50, height: 50 }} />
-                    </TouchableOpacity>
+                    
 
                 </View>
 
