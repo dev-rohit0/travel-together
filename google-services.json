@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892477933433",
+    "project_id": "travvel-cfd85",
+    "storage_bucket": "travvel-cfd85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892477933433:android:4c99f986daf361c86991a8",
+        "android_client_info": {
+          "package_name": "com.travel.together"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRbqJo8jNcfxVqVHQjWztkU8x46vfhKnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
